@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media only screen and (min-width:320px) and (max-width: 570px) {
+
+    header nav {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    main section#sec-1 {
+        background-color: #00b2ca;
+        padding: 25px 35px;
+        width: 100%;
+    }
+
+    div.small-icon i {
+        color: #fbd1a2;
+        font-size: 12px;
+    }
+
+    div.small-icon #small a {
+        font-size: 10px;
+        color: #fbd1a2;
+    }
+
+    div.head h1 {
+        font-size: 14px;
+    }
+
+    div.head h1,
+    div.head span {
+        color: #ffffff;
+    }
+
+    table {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr th {
+        color: #fbd1a2;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    tr td,
+    tr th {
+        padding-top: 10px;
+    }
+
+    tr td {
+        padding-left: 10px;
+        font-weight: lighter;
+    }
+
+    tr th {
+        border-right: 1px solid black;
+        padding-right: 20px;
+        width: 100px;
+    }
+
+    div.brand-logo img {
+        z-index: 1;
+        top: 16%;
+        left: 75%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+    main section#sec-2 {
+        padding: 20px;
+    }
+
+    main section#sec-2 div.description h3 {
+        text-align: center;
+        color: #00b2ca;
+        border-bottom: 1px dotted #00b2ca;
+        width: 100px;
+        margin: auto;
+    }
+
+    main section#sec-2 div.description span {
+        line-height: 30px;
+        color: #706f6f;
+    }
+
+    div.location-time,
+    div.location-time div.location,
+    div.location-time div.time {
+        display: flex;
+    }
+
+    div.location-time div.location,
+    div.location-time div.time {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    div.location-time div.location label,
+    div.location-time div.time label {
+        color: #00b2ca;
+    }
+
+    div.location-time div.location span,
+    div.location-time div.time span {
+        padding-top: 10px;
+    }
+
+    div.event {
+        display: grid;
+        place-content: center;
+    }
+
+    div.event a button {
+        padding: 10px;
+        background: #00b2ca;
+        color: #fbd1a2;
+        border: none;
+        width: 200px;
+        margin: 10px;
+    }
+
+    main section#sec-3 div.tag {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section#sec-3 div.tag hr {
+        border: 1px solid #706f6f;
+        height: 1px;
+        width: 100px;
+        margin: 0 15px;
+    }
+
+    div.adv {
+        margin: 20px 15px;
+    }
+
+    div.adv i {
+        font-size: 40px;
+        color: #00b2ca;
+        margin: 0 20px 30px;
+    }
+
+    div.adv h3 {
+        margin: 10px 0;
+    }
+
+    div.adv span {
+        color: #706f6f;
+    }
+
+    div.adv span a {
+        color: #00b2ca;
+    }
+
+    footer div.inform {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    footer div.inform a {
+        color: #00b2ca;
+    }
+
+    #calendar-text {
+        line-height: 30px;
+    }
+
+}
+
+@media only screen and (min-width:571px) {
+    header nav {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    main section#sec-1 {
+        background-color: #00b2ca;
+        padding: 25px 35px;
+        width: 100%;
+    }
+
+    div.small-icon i {
+        color: #fbd1a2;
+        font-size: 12px;
+    }
+
+    div.small-icon #small a {
+        font-size: 10px;
+        color: #fbd1a2;
+    }
+
+    div.head h1 {
+        font-size: 14px;
+    }
+
+    div.head h1,
+    div.head span {
+        color: #ffffff;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table tr th {
+        color: #fbd1a2;
+        padding: 10px;
+    }
+
+    table tr th,
+    table tr td {
+        border-right: 1px solid black;
+        padding: 10px;
+        text-align: left;
+    }
+
+    table tr th:nth-child(4),
+    table tr td:nth-child(4) {
+        border-right: none;
+    }
+
+    div.brand-logo img {
+        z-index: 1;
+        top: 8%;
+        left: 75%;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    main section#sec-2 {
+        padding: 20px;
+    }
+
+    main section#sec-2 div.description h3 {
+        text-align: center;
+        color: #00b2ca;
+        border-bottom: 1px dotted #00b2ca;
+        width: 100px;
+        margin: auto;
+    }
+
+    main section#sec-2 div.description span {
+        line-height: 30px;
+        color: #706f6f;
+    }
+
+    div.location-time,
+    div.location-time div.location,
+    div.location-time div.time {
+        display: flex;
+    }
+
+    div.location-time div.location,
+    div.location-time div.time {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    div.location-time div.location label,
+    div.location-time div.time label {
+        color: #00b2ca;
+    }
+
+    div.location-time div.location span,
+    div.location-time div.time span {
+        padding-top: 10px;
+    }
+
+    div.event {
+        display: grid;
+        place-content: center;
+    }
+
+    div.event a button {
+        padding: 10px;
+        background: #00b2ca;
+        color: #fbd1a2;
+        border: none;
+        width: 200px;
+        margin: 10px;
+    }
+
+    main section#sec-3 div.tag {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section#sec-3 div.tag hr {
+        border: 1px solid #706f6f;
+        height: 1px;
+        width: 150px;
+        margin: 0 15px;
+    }
+
+    div.adv {
+        margin: 20px 15px;
+    }
+
+    div.adv i {
+        font-size: 40px;
+        color: #00b2ca;
+        margin: 0 20px 30px;
+    }
+
+    div.adv h3 {
+        margin: 10px 0;
+    }
+
+    div.adv span {
+        color: #706f6f;
+    }
+
+    div.adv span a {
+        color: #00b2ca;
+    }
+
+    footer div.inform {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    footer div.inform a {
+        color: #00b2ca;
+    }
+
+    #calendar-text {
+        line-height: 30px;
+    }
+}
